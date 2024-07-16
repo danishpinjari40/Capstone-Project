@@ -1,0 +1,18 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "my-blog-app/\r │\r ├── public/                    # Static files (CSS, images, etc.)\r │   └── css/\r │       └── styles.css         # Custom styles\r │\r ├── views/                     # EJS templates\r │   ├── partials/\r │   │   └── header.ejs         # Header partial\r │   │   └── footer.ejs         # Footer partial\r │   ├── index.ejs              # Home page (view posts)\r │   ├── create.ejs             # Create post page\r │   ├── edit.ejs               # Edit post page\r │\r ├── node_modules/              # Node.js modules\r │\r ├── app.js                     # Main server file\r ├── package.json               # Project metadata and dependencies\r └── README.md                  # Project documentation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
